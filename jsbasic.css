@@ -1,0 +1,144 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+/* body{
+   height: 100vh; 
+    width: 100vw;
+background-color: #960505;
+} */
+.main_div
+{
+    
+}
+header{
+    font-size: 30px;
+    margin: 10px;
+    
+}
+/* .center_div{
+    margin: 0px auto;
+} */
+.center_div p{
+    font-size: 15px;
+    font-weight: 700;
+}
+input[type=text] {
+    width: 600px;
+    padding: 15px 30px;
+    margin: 10px 10px;
+    border-radius: 5px;
+}
+.btn
+{
+    background-color: rgb(77, 79, 192);
+    margin: 10px;
+    font-size: 14px;
+    padding: 6px 4px;
+    width: 35%;
+    height: 25%;
+    font-weight: 550;
+    border-radius: 6px;
+}
+.btn:hover{
+    background-color: #18108f;
+    color: whitesmoke;
+    cursor: pointer;
+}
+#Seconday_para{
+    color: rgb(223, 206, 183);
+    margin: 20px 0px;
+    padding: 0px 20px;
+    width: 100%;
+    font-size: 19px;
+    font-weight: 700;
+    font-style: oblique;
+}
+#students_name{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin:0px auto;
+   padding-left: 35px;
+    font-size: 14px;
+    overflow: hidden;
+    overflow-y: scroll;
+}
+#students_name::-webkit-scrollbar {
+    width: 3px;
+    height: auto;
+}
+#students_name::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+  }
+  
+
+#students_name::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 20px;
+  }
+
+span{
+    float: right;
+    margin: 0px 20px; 
+}
+.btn1{
+    background-color: #217209;
+    color: black;
+    height: 5vh;
+    border-radius: 3px;
+    margin: 10px -14px;
+    padding: 0px 14px;
+    font-size: 15px;
+    font-weight: 550;
+    cursor: pointer;
+}
+.btn1:hover
+{
+    background-color: #2ea137;
+    color: whitesmoke; 
+}
+html {
+    height:100%;
+  }
+  
+  body {
+    margin:0;
+  }
+  
+  .bg {
+    animation:slide 3s ease-in-out infinite alternate;
+    background-image: linear-gradient(-60deg, #6c3 50%, #09f 50%);
+    bottom:0;
+    left:-50%;
+    opacity:.5;
+    position:fixed;
+    right:-50%;
+    top:0;
+    z-index:-1;
+  }
+  
+  .bg2 {
+    animation-direction:alternate-reverse;
+    animation-duration:4s;
+  }
+  
+  .bg3 {
+    animation-duration:5s;
+  }
+  
+  
+  h1 {
+    font-family:monospace;
+  }
+  
+  @keyframes slide {
+    0% {
+      transform:translateX(-25%);
+    }
+    100% {
+      transform:translateX(25%);
+    }
+  }
