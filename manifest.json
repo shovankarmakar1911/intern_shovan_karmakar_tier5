@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+  
+    "name": "Speak",
+    "description": "Extension to speak selected text",
+    "version": "1.0",
+    "icons": {
+      "128": "icon128.png",
+      "48": "icon48.png",
+      "16": "icon16.png"
+    },
+  
+    "background": {
+      "service_worker": "eventPage.js"
+    //   "persistent": false
+    },
+  
+    "permissions": [     
+            "contextMenus",
+            "tts"
+          ]
+  }
