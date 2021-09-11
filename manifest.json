@@ -1,0 +1,23 @@
+{
+    "name": "Text Search",
+    "version": "1.0.0",
+    "manifest_version": 3,
+    "description": "This is a text serching,printing and notification extension",
+    "icons": {
+      "48": "icons8-search-48.png"
+    },
+    "action": {"default_popup": "popup.html"},
+    "permissions": ["tabs","activeTab","scripting","notifications"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "host_permissions": ["https://*.developer.chrome.com/*","https://*.stackoverflow.com/*"],
+    "content_scripts": [
+      {
+        "css": ["style.css"],
+        "js": ["content.js"],
+        "matches": ["https://*.developer.chrome.com/*","https://*.stackoverflow.com/*"],
+        "run_at": "document_end"
+      }
+    ]
+  }
