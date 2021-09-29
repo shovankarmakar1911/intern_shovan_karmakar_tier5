@@ -8,7 +8,9 @@ Available Buttons in ToolBox
 
 
 BOLD - By using Bold Button we can make the text or character Bold(A-> 𝗔).
+
 STRIKE THROUGH - This tool generates strikethrough text (l̵i̵k̵e̵ ̵t̵h̵i̵s̵).
+
 CURSIVE - This tool generates formal script text (𝓁𝒾𝓀ℯ 𝓉𝒽𝒾𝓈).
 
 
