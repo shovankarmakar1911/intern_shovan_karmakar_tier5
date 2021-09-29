@@ -1,4 +1,4 @@
-Facebook Timeline Post Text Formatting Option
+#Facebook Timeline Post Text Formatting Option
 
 
 timeline post doesn't have any text designing option. But we know that text designing option is very useful for highlighting something.
