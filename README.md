@@ -1,20 +1,20 @@
-#Facebook Timeline Post Text Formatting Option
+# Facebook Timeline Post Text Formatting Option
 
 
 timeline post doesn't have any text designing option. But we know that text designing option is very useful for highlighting something.
 
 
-Available Buttons in ToolBox
+## Available Buttons in ToolBox
 
 
-BOLD - By using Bold Button we can make the text or character Bold(A-> 𝗔).
+### BOLD - By using Bold Button we can make the text or character Bold(A-> 𝗔).
 
-STRIKE THROUGH - This tool generates strikethrough text (l̵i̵k̵e̵ ̵t̵h̵i̵s̵).
+### STRIKE THROUGH - This tool generates strikethrough text (l̵i̵k̵e̵ ̵t̵h̵i̵s̵).
 
-CURSIVE - This tool generates formal script text (𝓁𝒾𝓀ℯ 𝓉𝒽𝒾𝓈).
+### CURSIVE - This tool generates formal script text (𝓁𝒾𝓀ℯ 𝓉𝒽𝒾𝓈).
 
 
-How To Install a Developer Version
+## How To Install a Developer Version
 
 
 1. Open the Extension Management page by navigating to chrome://extensions.
@@ -24,7 +24,7 @@ How To Install a Developer Version
 3. Click the Load unpacked button and select the extension directory.
 
 
-Link
+## Link
 
 
 extension example link- 
